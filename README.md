@@ -130,7 +130,7 @@ Every query is automatically traced in LangSmith, capturing:
 ![Dashboard](assets/AvailableData.png)
 
 ### Chat Example
-![Chat](assets/chat_example.png)
+![Chat](assets/Chat_Example.png)
 
 ### LangSmith Monitoring
 ![LangSmith](assets/Track_Lang.png)
