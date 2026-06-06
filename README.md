@@ -134,4 +134,7 @@ Every query is automatically traced in LangSmith, capturing:
 
 ## 👤 Author
 
-Francisco — [GitHub](https://github.com/FranciscoMSR3000)
+Francisco Segura — [GitHub](https://github.com/FranciscoMSR3000)
+
+
+> ⚠️ **Disclaimer:** All campaign data used in this project is entirely synthetic and generated for demonstration purposes only. It does not represent real clients, campaigns, or performance metrics from any organization. This project was built as a portfolio piece to showcase RAG-based AI applications in a marketing analytics context.
