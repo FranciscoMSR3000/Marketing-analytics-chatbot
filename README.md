@@ -121,14 +121,19 @@ Every query is automatically traced in LangSmith, capturing:
 - Token usage and cost
 
 ---
+## 📸 Screenshots
 
-## 🗺️ Roadmap
+### Dashboard
+![Dashboard](assets/Main.png)
 
-- [ ] Connect to real campaign data via API (Google Ads, Meta Ads)
-- [ ] Add DataFrame Agent for precise aggregate calculations
-- [ ] Evaluation suite with RAGAS metrics
-- [ ] Deploy to Streamlit Cloud
-- [ ] Authentication layer for enterprise use
+### Data information
+![Dashboard](assets/AvailableData.png)
+
+### Chat Example
+![Chat](assets/chat_example.png)
+
+### LangSmith Monitoring
+![LangSmith](assets/Track_Lang.png)
 
 ---
 
