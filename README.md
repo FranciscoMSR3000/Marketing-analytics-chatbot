@@ -135,5 +135,3 @@ Every query is automatically traced in LangSmith, capturing:
 ## 👤 Author
 
 Francisco — [GitHub](https://github.com/FranciscoMSR3000)
-
-*Built as part of a GenAI portfolio focused on marketing analytics applications.*
