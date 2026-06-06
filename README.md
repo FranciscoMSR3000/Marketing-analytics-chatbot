@@ -45,17 +45,17 @@ Streamlit Interface
 ---
 
 ## 📁 Project Structure
-marketing-chatbot/
-├── data/
-│   ├── generate.py        # Generates synthetic campaign data
-│   └── campaigns.csv      # 200 campaigns with 22 metrics
-├── src/
-│   ├── ingest.py          # Loads CSV and indexes into ChromaDB
-│   └── chain.py           # RAG chain — retrieval + LLM generation
-├── app.py                 # Streamlit interface
-├── .env                   # API keys (not included in repo)
-└── README.md
 
+    marketing-chatbot/
+    ├── data/
+    │   ├── generate.py        # Generates synthetic campaign data
+    │   └── campaigns.csv      # 200 campaigns with 22 metrics
+    ├── src/
+    │   ├── ingest.py          # Loads CSV and indexes into ChromaDB
+    │   └── chain.py           # RAG chain — retrieval + LLM generation
+    ├── app.py                 # Streamlit interface
+    ├── .env                   # API keys (not included in repo)
+    └── README.md
 ---
 
 ## 📊 Dataset
@@ -87,12 +87,12 @@ pip install chromadb pandas streamlit sentence-transformers python-dotenv
 
 ### 3. Configure environment variables
 Create a `.env` file in the root folder:
-OPENAI_API_KEY=sk-...
-LANGSMITH_TRACING=true
-LANGSMITH_ENDPOINT=https://api.smith.langchain.com
-LANGSMITH_API_KEY=ls__...
-LANGSMITH_PROJECT=marketing-chatbot
 
+    OPENAI_API_KEY=sk-...
+    LANGSMITH_TRACING=true
+    LANGSMITH_ENDPOINT=https://api.smith.langchain.com
+    LANGSMITH_API_KEY=ls__...
+    LANGSMITH_PROJECT=marketing-chatbot
 ### 4. Generate synthetic data
 ```bash
 python data/generate.py
